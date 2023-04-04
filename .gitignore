@@ -1,0 +1,8 @@
+# Ignore .pyc files
+*.pyc
+
+# Ignore .csv files
+*.csv
+
+# Jupyter Notebook
+.ipynb_checkpoints
