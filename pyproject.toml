@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling", "wheel", "bar", "greek"]
+build-backend = "hatchling.build"
+
+[project]
+name = "HousingPradeep"
+version = "1.0.0"
+authors = [
+  { name="Sai Kapu", email="sai.kapu@tigeranalytics.com" },
+]
+description = "A package to download, train and scoring models using housing dataset"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

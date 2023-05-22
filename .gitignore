@@ -1,11 +1,9 @@
-# Ignore .pyc files
-*.pyc
 
-# Ignore .csv files
+# ignoring .pyc and .csv files
+*.pyc
 *.csv
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# vs code cofig files
-.vscode
+*.pkl
+*.tgz
+dist
+docs/build
